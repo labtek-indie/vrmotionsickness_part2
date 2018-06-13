@@ -1,0 +1,216 @@
+- very high level of variance.
+ some people got long term effects, while others doesn't even feel anything
+
+
+
+
+
+Virtual vs reality
+
+- the problem is not always about the "virtual" part, but rather because it's closer to "reality",
+ we suffer similar symptomns if the scenario atually happens to us
+
+
+--------------------
+"virtual" problems
+--------------------
+
+- low latency
+- oculomotor conflict, maybe?
+- sudden change of focal distance when coming back to reality
+
+
+possible solutions
+
+- high latency (obviously)
+- cooling down after long usage
+
+
+
+
+--------------------
+"reality" problems
+--------------------
+
+- unanticipated movement
+- fast voluntary head movements
+- involuntary change of yaw
+- change of yaw through other means than head rotation (e.g via controller joystick)
+
+
+- insecurity inducing scenarios:
+	- sudden change of direction
+	- speed
+	- acceleration/deceleration
+	- height
+
+
+
+possible solutions
+
+- slow and gentle change of yaw
+	- change of head direction before change of movement direction (mimicking natural human walk)
+
+- reducing the level of "reality"
+	- reduce FoV
+		- always on
+		- selective
+		- surrounding frame
+		- horizontal/vertical
+		- on or both eyes
+
+- discrete movement/rotation
+
+
+- smooth acceleration/deceleration
+
+
+
+
+- reducing insecurity
+	- protective shell
+
+
+
+--------------------
+novel interactivity problems
+--------------------
+
+- confusion of direction
+
+
+
+
+possible solutions
+
+- clear direction identifier e.g cockpit or HUD
+
+
+
+
+High
+- pemaksaan arah
+- ngatur arah pake stick
+- frame rate
+- quick head movement
+
+
+Low
+- high speed
+
+
+
+
+
+**Both**
+
+- reduce FoV
+
+ - always on / adaptive / asymetrical adaptive
+ - surrounding frame / horizontal / vertical
+
+- Putting a player into a “cabin”/”capsule”
+- Faded sphere
+
+
+
+- cooling down after long usage
+	- fade to sky blue
+
+**On Rail**
+
+- Discrete rotation
+
+- Visual cue
+- Visualizing the movement’s trajectory
+
+- change of head direction before change of movement direction (mimicking natural human walk)
+
+
+**Controlled**
+
+- Lock direction to view
+- VR Step
+- Drag direction by view
+- Delay direction from controller
+
+Direction via control + view
+- body direction visualized through shoulders
+- on controller
+	- set body as anchor
+
+- on head yaw rotation outside of limit,
+	- set head as anchor
+
+- on update
+	- on body as anchor
+		- view follows with delay
+
+	- on head as anchor
+		- body follows with delay
+
+
+**Scenario**
+
+=On Rail=
+
+- R1 - rotates
+- R2 - rotates	- visible track
+- R3 - rotates 	- rotation look ahead
+- R4 - rotates 	- rotation look ahead	- adaptive	- faded sphere
+- R5 - rotates 	- rotation look ahead	- adaptive	- cage
+
+- R6 - No rotation	- cage
+
+- R7 v tangent	v fixed		v frame
+- R8 v tangent	v adaptive	v frame
+
+- R9 v tangent	v adaptive	- vertical
+- R10 v tangent	v adaptive	- horizontal
+
+
+
+=Controlled=
+
+v C1 v Direction via control			v cage		v adaptive	v frame
+v C2 v Direction via control	- delayed	v cage		v adaptive	v frame
+
+v C3 v Direction via view
+
+v C4 v Direction via view	v adaptive	v frame
+
+
+v C5 VR Step
+
+
+x CX v Direction via view	- drag		v cage		v adaptive	v frame
+
+
+
+=Closing=
+v ZZ cooling down
+
+
+
+others
+v 5 tracks
+v fixed or randomize track
+v targets & end game
+- rotation hint
+- cooling down
+
+
+parameters
+
+v fixed or randomize track v
+- neck delay v
+- rotation look ahead v
+- adaptive/not v
+- filter mode v
+- rotation hint mode v
+- activate VR step
+
+
+Kemungkinan lain:
+
+- konflik focal distance
